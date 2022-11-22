@@ -1,0 +1,23 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/ce/8f/73/ce8f73d98565e7947b95f1e226155280.jpg");
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
